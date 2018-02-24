@@ -1,5 +1,5 @@
 package com.innerclasses;
-
+//闭包与回调
 interface Incrementable {
     void increment();
 }

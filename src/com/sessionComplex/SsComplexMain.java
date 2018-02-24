@@ -20,9 +20,6 @@ public class SsComplexMain {
 
         Chess cs = new Chess();
 
-        SpaceShipDelegation protector = new SpaceShipDelegation("NASA Protector");
-        protector.forward(100);
-
         ProtectedClass orc = new ProtectedClass("lim", 12);
         Print.print(orc);
         orc.change("bob", 19);

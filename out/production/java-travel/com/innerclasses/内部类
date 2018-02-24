@@ -1,0 +1,5 @@
+
+   可以指定类的内部类成员Parcell.Contents c = q.contents();
+
+嵌套类：
+    当内部类对象与外围类对象直接没联系，可以将内部类声明为static
