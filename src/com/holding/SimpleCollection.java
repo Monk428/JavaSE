@@ -34,9 +34,17 @@ public class SimpleCollection {
         Integer[] moreInts = { 6, 7, 8};
         collection.addAll(Arrays.asList(moreInts));
 
+        /**按插入顺序**/
         System.out.println(fill(new ArrayList<String>()));
-        System.out.println(fill(new HashSet<>()));
-        System.out.println(fill(new TreeSet<>()));
-        System.out.println(fill(new HashMap<String,String>()));
+        System.out.println(fill(new LinkedList<String>()));
+        /**相同只保存一次**/
+        System.out.println(fill(new HashSet<>()));//能最快获取
+        System.out.println(fill(new TreeSet<>()));//升序排列
+        System.out.println(fill(new LinkedHashSet<String>()));//按添加顺序
+        /**Map类型**/
+        System.out.println(fill(new HashMap<String,String>()));//最快查找，无明显顺序
+        System.out.println(fill(new TreeMap<String,String>()));//升序
+        System.out.println(fill(new LinkedHashMap<String,String>()));//按插入，保留HashMap查询速度
+
     }
 }
