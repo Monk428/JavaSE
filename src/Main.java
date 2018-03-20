@@ -12,7 +12,7 @@ import com.Interface.*;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Main args " + args);
+//        System.out.println("Main args " + args);
 //        SsComplexMain ss = new SsComplexMain();
 //        SsComplexMain.main(args);
 
@@ -25,7 +25,13 @@ public class Main {
 //        HoldingMain hm = new HoldingMain();
 //        hm.main(args);
 
-        MainThread mt = new MainThread();
-        mt.main(args);
+//        MainThread mt = new MainThread();
+//        mt.main(args);
+
+
+
+
+
+
     }
 }

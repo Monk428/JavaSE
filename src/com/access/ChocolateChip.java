@@ -1,7 +1,7 @@
 package com.access;
 
 public class ChocolateChip extends Cookie{
-    public ChocolateChip() {
+    public void ChocolateChip() {
         System.out.println("ChocolateChip constructor");
     }
     public void chomp() {

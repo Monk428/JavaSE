@@ -6,7 +6,7 @@ import com.typeinfo.pets.Pets;
 import java.util.*;
 
 public class CrossContainerIteration {
-    public static void display(Iterator<Pet> it) {
+    private static void display(Iterator<Pet> it) {
         while (it.hasNext()) {
             Pet p = it.next();
             System.out.println(p.id() + ":" + p + " ");
